@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "buildsprite": "svgstore -o src/assets/combined.svg src/assets/svg/**/*.svg --inline"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +23,7 @@
     "@angular/platform-browser-dynamic": "~9.0.1",
     "@angular/router": "~9.0.1",
     "rxjs": "~6.5.4",
+    "svgstore-cli": "^1.3.1",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
